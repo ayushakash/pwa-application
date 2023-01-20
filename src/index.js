@@ -10,6 +10,8 @@ root.render(
     <App />
   </React.StrictMode>
 );
+// eslint-disable-next-line no-undef
+serviceWorker.register();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
